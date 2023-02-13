@@ -149,6 +149,7 @@ public class Workshop1 {
         return arr;
     }
 
+    //selection sort
     public static void findElement(int[] arr, Scanner sc) {
         int target;
         boolean found = false;
@@ -165,6 +166,8 @@ public class Workshop1 {
         }
         System.out.println("");
     }
+    
+    // merge sort 
 
     public static int findMax(int[] arr) {
         return sortArray(arr)[arr.length - 1];
